@@ -1,0 +1,6 @@
+<div class="container">
+    <p>code: {{code}}</p>
+</div>
+<div class="container" ng-if="authTokenResponseData">
+    <p ng-repeat="(key, value) in authTokenResponseData">{{key}}: {{value}}</p>
+</div>
